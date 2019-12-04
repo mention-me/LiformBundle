@@ -13,7 +13,7 @@
         "psr-4": { "Limenius\\LiformBundle\\": "" }
     },
     "require": {
-        "mention-me/liform": "^0.13.0"
+        "mention-me/liform": "^0.14.0"
     },
     "repositories": {
         "mention-me/liform": {

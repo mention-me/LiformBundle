@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3307e638d6ec060338a6d57bde1a1d2",
+    "content-hash": "c1fd33067c55aed066128a4658e85e80",
     "packages": [
         {
             "name": "limenius/liform",
@@ -51,7 +51,7 @@
         },
         {
             "name": "mention-me/liform",
-            "version": "v0.13.0",
+            "version": "v0.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mention-me/Liform.git",
