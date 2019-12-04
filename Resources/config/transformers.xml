@@ -56,6 +56,11 @@
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="checkbox" widget="checkbox"/>
         </service>
+
+        <service id="liform.transformer.hidden" class="Limenius\Liform\Transformer\HiddenTransformer"
+                 parent="Limenius\Liform\Transformer\AbstractTransformer">
+            <tag name="liform.transformer" form_type="hidden" widget="hidden"/>
+        </service>
     </services>
 
 </container>

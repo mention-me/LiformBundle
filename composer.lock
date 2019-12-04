@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b04eba944de588cb0d1087235e6de93e",
+    "content-hash": "e3307e638d6ec060338a6d57bde1a1d2",
     "packages": [
         {
             "name": "limenius/liform",
@@ -48,6 +48,64 @@
             ],
             "description": "Library to transform Symfony Forms into Json Schema",
             "time": "2017-12-15T17:29:18+00:00"
+        },
+        {
+            "name": "mention-me/liform",
+            "version": "v0.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mention-me/Liform.git",
+                "reference": "55093105007f091ca8c0c5e7f3530ec754b51fa5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mention-me/Liform/zipball/55093105007f091ca8c0c5e7f3530ec754b51fa5",
+                "reference": "55093105007f091ca8c0c5e7f3530ec754b51fa5",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/form": "~2.8|~3.0|^4.0",
+                "symfony/serializer": "~2.8|~3.0|^4.0",
+                "symfony/translation": "~2.3|~3.0|^4.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+                "escapestudios/symfony2-coding-standard": "^2.9",
+                "phpcompatibility/php-compatibility": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Limenius\\Liform\\": "src/Limenius/Liform"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Limenius\\Liform\\Tests\\": "tests/Limenius/Liform/Tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ],
+                "cs": [
+                    "phpcs"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nacho Martín",
+                    "email": "nacho@limenius.com"
+                }
+            ],
+            "description": "Library to transform Symfony Forms into Json Schema.  Extends Limenius/liform.",
+            "support": {
+                "source": "https://github.com/mention-me/Liform/tree/v0.13.0"
+            },
+            "time": "2019-12-04T16:40:48+00:00"
         },
         {
             "name": "symfony/event-dispatcher",

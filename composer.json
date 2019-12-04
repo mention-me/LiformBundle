@@ -1,6 +1,6 @@
 {
-    "name": "limenius/liform-bundle",
-    "description": "Bundle for Liform: Transform Symfony Forms into Json Schema",
+    "name": "mention-me/liform-bundle",
+    "description": "Bundle for Liform: Transform Symfony Forms into Json Schema. Extends Limenius/liform-bundle.",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,13 @@
         "psr-4": { "Limenius\\LiformBundle\\": "" }
     },
     "require": {
-        "limenius/liform": "^0.12.0"
+        "mention-me/liform": "^0.13.0"
+    },
+    "repositories": {
+        "mention-me/liform": {
+            "type": "vcs",
+            "url": "https://github.com/mention-me/Liform"
+        }
     },
     "minimum-stability": "stable"
 }
