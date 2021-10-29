@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1fd33067c55aed066128a4658e85e80",
+    "content-hash": "09402289b1cecb6c923a0ef52f651d9d",
     "packages": [
         {
             "name": "mention-me/liform",
-            "version": "v0.14.0",
+            "version": "v0.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mention-me/Liform.git",
-                "reference": "55093105007f091ca8c0c5e7f3530ec754b51fa5"
+                "reference": "ec1b781f930017c2d1e0ab9aa1c9f69fb2320062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mention-me/Liform/zipball/55093105007f091ca8c0c5e7f3530ec754b51fa5",
-                "reference": "55093105007f091ca8c0c5e7f3530ec754b51fa5",
+                "url": "https://api.github.com/repos/mention-me/Liform/zipball/ec1b781f930017c2d1e0ab9aa1c9f69fb2320062",
+                "reference": "ec1b781f930017c2d1e0ab9aa1c9f69fb2320062",
                 "shasum": ""
             },
             "require": {
@@ -60,9 +60,9 @@
             ],
             "description": "Library to transform Symfony Forms into Json Schema.  Extends Limenius/liform.",
             "support": {
-                "source": "https://github.com/mention-me/Liform/tree/v0.13.0"
+                "source": "https://github.com/mention-me/Liform/tree/v0.15.0"
             },
-            "time": "2019-12-04T16:40:48+00:00"
+            "time": "2021-10-29T13:43:20+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
