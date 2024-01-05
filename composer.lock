@@ -4,26 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4609d4212e0994c2699aabeba65d002",
+    "content-hash": "9ee264ccfe459eedf0cfb3d088342394",
     "packages": [
         {
             "name": "mention-me/liform",
-            "version": "v0.16.0",
+            "version": "v0.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mention-me/Liform.git",
-                "reference": "7a00f06083c74994d5f813d8e3455895153c66e2"
+                "reference": "89e5b721d882caec253ec167638323a3ca608ea1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mention-me/Liform/zipball/7a00f06083c74994d5f813d8e3455895153c66e2",
-                "reference": "7a00f06083c74994d5f813d8e3455895153c66e2",
+                "url": "https://api.github.com/repos/mention-me/Liform/zipball/89e5b721d882caec253ec167638323a3ca608ea1",
+                "reference": "89e5b721d882caec253ec167638323a3ca608ea1",
                 "shasum": ""
             },
             "require": {
-                "symfony/form": "^4.0",
-                "symfony/serializer": "^4.0",
-                "symfony/translation": "^4.0"
+                "symfony/form": "^4.0 || ^5.0",
+                "symfony/serializer": "^4.0 || ^5.0",
+                "symfony/translation": "^4.0 || ^5.0"
             },
             "require-dev": {
                 "escapestudios/symfony2-coding-standard": "^2.9",
@@ -59,9 +59,9 @@
             ],
             "description": "Library to transform Symfony Forms into Json Schema.  Extends Limenius/liform.",
             "support": {
-                "source": "https://github.com/mention-me/Liform/tree/v0.16.0"
+                "source": "https://github.com/mention-me/Liform/tree/v0.18.0"
             },
-            "time": "2022-03-05T17:03:45+00:00"
+            "time": "2024-01-05T22:16:13+00:00"
         },
         {
             "name": "psr/container",
