@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ee264ccfe459eedf0cfb3d088342394",
+    "content-hash": "ac249c5bf1c42b99b280a30b7366d6d1",
     "packages": [
         {
             "name": "mention-me/liform",
-            "version": "v0.18.0",
+            "version": "v0.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mention-me/Liform.git",
@@ -59,7 +59,7 @@
             ],
             "description": "Library to transform Symfony Forms into Json Schema.  Extends Limenius/liform.",
             "support": {
-                "source": "https://github.com/mention-me/Liform/tree/v0.18.0"
+                "source": "https://github.com/mention-me/Liform/tree/v0.18.1"
             },
             "time": "2024-01-05T22:16:13+00:00"
         },
