@@ -11,6 +11,8 @@ updates:
       - dependencies
       - github_actions
     target-branch: "master"
+    cooldown:
+      default-days: 7
 
   - package-ecosystem: "composer"
     directory: "/"
@@ -26,3 +28,5 @@ updates:
       - dependencies
       - composer
     target-branch: "master"
+    cooldown:
+      default-days: 7
